@@ -1,64 +1,50 @@
-<html lang="en">
+<style>
+  .button2 {
+    background-color: #4caf50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Speech Recording</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
-  <style>
-    .button2 {
-      background-color: #4caf50;
-      /* Green */
-      border: none;
-      color: white;
-      padding: 16px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      border-radius: 5px;
-    }
+  .floating {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-content: flex-end;
+    z-index: 999999999999999;
+  }
 
-    .floating {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      display: flex;
-      align-content: flex-end;
-      z-index: 999999999999999;
-    }
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008cba;
+  }
 
-    .button2 {
-      background-color: white;
-      color: black;
-      border: 2px solid #008cba;
-    }
-
-    .button2:hover,
-    .button2.active {
-      background-color: #008cba;
-      color: white;
-    }
-  </style>
-</head>
-
-<body>
-  <h2>Editor</h2>
-  <button class="button2" id="dl">Download</button>
-  <textarea name="" id="edit" cols="30" rows="10"></textarea>
-  <div class="floating">
-    <div style="display: inline; padding: 20px;">
-      <div id="predict"></div>
-    </div>
-    <button class="button2" id="rec">Rec</button>
+  .button2:hover,
+  .button2.active {
+    background-color: #008cba;
+    color: white;
+  }
+</style>
+<h2>Editor</h2>
+<button class="button2" id="dl">Download</button>
+<textarea name="" id="edit" cols="30" rows="10"></textarea>
+<div class="floating">
+  <div style="display: inline; padding: 20px;">
+    <div id="predict"></div>
   </div>
-  <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+  <button class="button2" id="rec">Rec</button>
+</div>
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
-  <script src="/js/editor.js"></script>
-</body>
-
-</html>
+<script src="/js/editor.js"></script>
