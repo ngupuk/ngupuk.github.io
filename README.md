@@ -8,9 +8,21 @@ Kami akan menceritakan banyak hal di websini.
 
 # Support dengan Saweran
 
-Jangan lupa sawer __NGUPUK__ agar kami bisa beli kuota sambil ngupuk terus. Sekali rekaman bisa habis hampir 1GB _cuk_.
+Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Sekali rekaman bisa habis hampir 1GB _cuk_.
 
 [![https://saweria.co/ngupuk](https://dabuttonfactory.com/button.png?t=Klik+untuk+kirim+saweran&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](https://saweria.co/ngupuk)
 
 ---
 
+## ALL POST
+
+{% for post in site.posts %}
+
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+  </article>
+{% endfor %}
