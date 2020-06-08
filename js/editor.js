@@ -41,15 +41,16 @@ recognition.onerror = () => {
   isRecord = false
 }
 
-rec.addEventListener('mouseup', () => {
-  recognition.stop()
+rec.addEventListener('click', () => {
+  if (isRecord) {
+    recognition.stop()
+  } else {
+    recognition.start()
+    isRecord = true
+    rec.classList.add('active')
+  }
 })
 
-rec.onmousedown = () => {
-  recognition.start()
-  isRecord = true
-  rec.classList.add('active')
-}
 
 const dl = document.getElementById('dl')
 
