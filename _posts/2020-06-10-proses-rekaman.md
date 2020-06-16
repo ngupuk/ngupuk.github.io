@@ -1,7 +1,7 @@
 ---
 title: Proses Rekaman Podcast di Ngupuk
 author: Wafa
-tags: recording, podcast,
+tags: recording podcast
 ---
 
 Sebelum sebuah audio dapat dipublikasi,

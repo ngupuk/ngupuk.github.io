@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bagaimana Ngupuk Mengedit Audio
-tags: editing, audio
+tags: editing audio
 author: Wafa
 ---
 
