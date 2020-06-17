@@ -8,11 +8,13 @@
 
   {% seo %}
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/static/social.css?v=" | append: site.github.build_revision | relative_url }}">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
   <meta name="google-site-verification" content="2GLDrCb97VF2WplnbMoE8baggN2wFW8quCAv8t-H-J4" />
+
 </head>
 
 <body>
@@ -32,7 +34,11 @@
       {% endif %}
 
       {% if site.github.is_user_page %}
-      <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+      <p class="view">
+        <a href="{{ site.github.owner_url }}"><i class="svg-icon github"></i></a>
+        <a href="https://instagram.com/ngupuk.id"><i class="svg-icon instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCJrrd_k9ggcwg9I4t4evX0g"><i class="svg-icon youtube"></i></a>
+      </p>
       {% endif %}
 
       {% if site.show_downloads %}
