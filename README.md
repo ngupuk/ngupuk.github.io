@@ -29,15 +29,19 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
   </ul>
 {% endfor %}
 
+---
+
 ## Semua Artikel
 
-{% for post in site.posts %}
+{% for cat in site.category-list %}
 
-  <article>
-    <h2>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-  </article>
+  <ul>
+    {% for page in site.posts %}
+      {% for pc in page.categories %}
+        {% if pc != cat %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}   
+      {% endfor %}  
+    {% endfor %}  
+  </ul>
 {% endfor %}
