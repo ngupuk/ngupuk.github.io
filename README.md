@@ -22,7 +22,7 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
     {% for page in site.pages %}
       {% if page.resource == true %}
         {% for pc in page.categories %}
-          {% if pc == "episode" %}
+          {% if pc == cat %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
           {% endif %}   <!-- cat-match-p -->
         {% endfor %}  <!-- page-category -->
