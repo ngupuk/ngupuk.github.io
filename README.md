@@ -19,17 +19,15 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
 {% for cat in site.category-list %}
 
   <ul>
-    {% for page in site.pages %}
-      {% if page.resource == true %}
-        {% for pc in page.categories %}
-          {% if pc == cat %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-          {% endif %}   <!-- cat-match-p -->
-        {% endfor %}  <!-- page-category -->
-      {% endif %}   <!-- resource-p -->
-    {% endfor %}  <!-- page -->
+    {% for page in site.posts %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}   
+      {% endfor %}  
+    {% endfor %}  
   </ul>
-{% endfor %}  <!-- cat -->
+{% endfor %}
 
 ## Semua Artikel
 
