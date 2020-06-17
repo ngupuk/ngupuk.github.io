@@ -10,7 +10,17 @@ Kami akan menceritakan banyak hal di websini.
 
 Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Sekali rekaman bisa habis hampir 1GB _cuk_.
 
-[![https://saweria.co/ngupuk](https://dabuttonfactory.com/button.png?t=Klik+untuk+kirim+saweran&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](https://saweria.co/ngupuk)
+<p>
+  Jangan lupa dukung ngupuk dengan klik tombol <strong>Dukung Ngupuk</strong>
+  Kalian bisa gunakan ovo, gopay, link aja dll
+</p>
+<p>
+  <a href="https://saweria.co/ngupuk">
+    <img
+      src="https://dabuttonfactory.com/button.png?t=Dukung+Ngupuk&amp;f=Open+Sans-Bold&amp;ts=26&amp;tc=fff&amp;hp=45&amp;vp=20&amp;c=11&amp;bgt=unicolored&amp;bgc=15d798"
+      alt="https://saweria.co/ngupuk" />
+  </a>
+</p>
 
 ---
 

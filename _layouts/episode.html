@@ -9,9 +9,17 @@ layout: default
 
 {{content}}
 
-{% if page.tags %}
-<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+<p>
+  Jangan lupa dukung ngupuk dengan klik tombol <strong>Dukung Ngupuk</strong>
+  Kalian bisa gunakan ovo, gopay, link aja dll
+</p>
+<p>
+  <a href="https://saweria.co/ngupuk">
+    <img
+      src="https://dabuttonfactory.com/button.png?t=Dukung+Ngupuk&amp;f=Open+Sans-Bold&amp;ts=26&amp;tc=fff&amp;hp=45&amp;vp=20&amp;c=11&amp;bgt=unicolored&amp;bgc=15d798"
+      alt="https://saweria.co/ngupuk" />
+  </a>
+</p>
 
 <hr />
 
@@ -28,3 +36,9 @@ layout: default
   {% endfor %}
 </ul>
 {% endfor %}
+
+<hr />
+
+{% if page.tags %}
+<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
