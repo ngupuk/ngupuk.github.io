@@ -33,15 +33,8 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
 
 ## Semua Artikel
 
-{% for cat in site.category-list %}
-
-  <ul>
-    {% for page in site.posts %}
-      {% for pc in page.categories %}
-        {% if pc != cat %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}   
-      {% endfor %}  
-    {% endfor %}  
-  </ul>
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
