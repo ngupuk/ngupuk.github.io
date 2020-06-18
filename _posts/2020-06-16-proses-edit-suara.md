@@ -34,7 +34,7 @@ Setelah selesai, maka kami akan melakuan _export_ dalam file `.mp3`.
 Namun file itu terkadang terlalu besar untuk di upload.
 Maklum kuota sudah banyak untuk remakan. Jadi jangan lupa sawer **Ngupuk**.
 
-[![https://saweria.co/ngupuk](https://dabuttonfactory.com/button.png?t=Klik+untuk+kirim+saweran&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](https://saweria.co/ngupuk)
+{% include sawer.html %}
 
 Jadi, kami merubah dalam format `.ogg` yang cukuk kecil dengan **FFMPEG** lagi.
 

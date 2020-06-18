@@ -73,7 +73,7 @@ Temasuk evaluasi, curhat dan ide-ide baru lain.
 Rekaman bisa habis hampir 1 GB untuk setiap kru.
 Jadi jangan lupa sawer yau...
 
-[![https://saweria.co/ngupuk](https://dabuttonfactory.com/button.png?t=Klik+untuk+kirim+saweran&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](https://saweria.co/ngupuk)
+{% include sawer.html %}
 
 # Tahap Editing
 
@@ -92,7 +92,7 @@ Setelah selesai audio akan di upload.
 Biasanya ini memakan data sekitar 1 GB termasuk untuk tahap rekaman.
 Jadi jangan lupa sawer.
 
-[![https://saweria.co/ngupuk](https://dabuttonfactory.com/button.png?t=Klik+untuk+kirim+saweran&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798)](https://saweria.co/ngupuk)
+{% include sawer.html %}
 
 ## Editing Instagram post dan Thumbnails
 
