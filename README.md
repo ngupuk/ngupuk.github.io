@@ -24,7 +24,7 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
 
 ---
 
-## Episode sebelumnya
+## Episode Podcast
 
 {% for cat in site.category-list %}
 
@@ -41,7 +41,7 @@ Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Seka
 
 ---
 
-## Semua Artikel
+## Artikel
 
 <ul>
 {% for post in site.posts %}
