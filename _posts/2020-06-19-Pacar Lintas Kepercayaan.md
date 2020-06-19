@@ -5,6 +5,7 @@ tags: Agama
 author: Ignatius Sandra Setyabudi
 ---
 > _Mengapa kamu bisa sayang sama dia? Memang sayang butuh alasan ya?._
+
 Kalimat itu merupakan kutipan dari sebuah film Cinta Brontosaurus. 
 Terdengar romantis namun juga membingungkan saat mencintai seseorang yang berbeda keyakinan dengan kita.
 Beda kayakinan dalam hal ini bukan yakin kalau aku ganteng namun kamu ga yakin,
