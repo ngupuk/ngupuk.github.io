@@ -1,5 +1,5 @@
 ---
-title: WANITA PENGUBAH HIDUP KU
+title: Wanita Pengubah Hidup Ku
 tags: Wanita
 layout: post
 author: Ignatius Sandra Setyabudi
