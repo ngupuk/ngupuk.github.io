@@ -19,5 +19,3 @@ Kita bandingkan dengan cerita ini, aku adalah orang yang jarang banget bisa tepa
 Dari perbandingan dua cerita tersebut dapat disimpulkan wanita dapat mengubah hidup lelaki saat wanita itu dianggap spesial olehnya. Bukan kalimatnya yang indah yang mampu mengubah seorang lelaki namun dari bibir siapa kalimat itu terucap. 
 Untuk para wantia jangan pernah berhenti menasehati, mamarahi atau bawalin kami para lelaki ya.
 
-
-By : Ignatius Sandra Setyabudi 
