@@ -1,11 +1,12 @@
 ---
 ---
 [
-{% assign posts = site.posts | where:"your-filter","filter-value" %}
-{% for post in posts %}
-{
+{% for post in site.posts %}
+  {% if post.hide != true %}
+  {
     "title": "{{ post.title }}",
     "href": "{{ post.url }}"
-}{% unless forloop.last %},{% endunless %}
+}
+  {% endif %}
 {% endfor %}
 ]
