@@ -15,4 +15,10 @@ layout: default
 <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 
+{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
+<h4>Baca Juga</h4>
+<ul>
+  <li><a href="{{ site.posts[random].url }}">{{ site.posts[random].title }}</a></li>
+</ul>
+
 {% include comment.html %}

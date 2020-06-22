@@ -1,9 +1,0 @@
----
----
-{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-[
-  {
-    "title": "{{ site.posts[random].title }}",
-    "href": "{{ site.posts[random].url }}"
-  }
-]
