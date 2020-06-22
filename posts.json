@@ -1,12 +1,10 @@
 ---
 ---
 [
-{% for post in site.posts %}
-  {% if post.hide != true %}
+{% for post in site.posts %}{% if post.hide != true %}
   {
     "title": "{{ post.title }}",
     "href": "{{ post.url }}"
-},
-  {% endif %}
-{% endfor %}
+  },
+  {% endif %}{% endfor %}
 ]
