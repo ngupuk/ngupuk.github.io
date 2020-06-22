@@ -9,18 +9,13 @@ layout: default
 
 {{content}}
 
-{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-{% assign random1 = site.time | date: "%s%N" | modulo: site.posts.size %}
-{% assign random2 = site.time | date: "%s%N" | modulo: site.posts.size %}
-{% assign random3 = site.time | date: "%s%N" | modulo: site.posts.size %}
-{% assign random4 = site.time | date: "%s%N" | modulo: site.posts.size %}
-<h4>Baca Juga</h4>
+<h4>Baca Juga:</h4>
 <ul>
-  <li><a href="{{ site.posts[random].url }}">{{ site.posts[random].title }}</a></li>
-  <li><a href="{{ site.posts[random1].url }}">{{ site.posts[random1].title }}</a></li>
-  <li><a href="{{ site.posts[random2].url }}">{{ site.posts[random2].title }}</a></li>
-  <li><a href="{{ site.posts[random3].url }}">{{ site.posts[random3].title }}</a></li>
-  <li><a href="{{ site.posts[random4].url }}">{{ site.posts[random4].title }}</a></li>
+  {% for post in site.posts %}
+    {% if post.hide != true %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <hr />
