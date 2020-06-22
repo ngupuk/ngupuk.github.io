@@ -1,10 +1,9 @@
 ---
 ---
+{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 [
-{% for post in site.posts %}{% if post.hide != true %}
   {
-    "title": "{{ post.title }}",
-    "href": "{{ post.url }}"
-  },
-  {% endif %}{% endfor %}
+    "title": "{{ site.posts[random].title }}",
+    "href": "{{ site.posts[random].url }}"
+  }
 ]
