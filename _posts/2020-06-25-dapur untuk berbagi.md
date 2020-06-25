@@ -12,6 +12,7 @@ Memasak merupakan salah satu cara menusia mendapatkan makanan.
 Jadi enggak ada salahnya, baik kaum hawa mau pun adam untuk belajar memasak.
 
 Bicara soal dapur, penulis pernah membayangkan obrolan di dapur dimasa yang akan datang. 
+
 Cewe : _Mas belanja yok, stok bahan makanan habis_
 
 Cowo : _iya dek_
