@@ -4,12 +4,13 @@ layout: post
 author: Ignatius Sandra Setyabudi
 tags: Wanita
 ---
+
 > Gue udah kos dari sejak gue SMP sampe sekarang, artinya gue udah kos lebih dari 10 tahun. Kini gue sedang tertarik untuk belajar memasak  (Putu, 2020).
 
 Memasak biasanya identik dengan wanita, namun benarkah wanita harus bisa masak?. 
-Memasak makanan adalah salah satu cara menusia mendapatkan makanan. 
-Jadi enggak ada salahnya baik kaum hawa mau pun hawa untuk belajar memasak.
-Penulis pernah membayangkan obrolan di Dapur dimasa yang akan datang. 
+Memasak adalah salah satu cara menusia mendapatkan makanan. 
+Jadi enggak ada salahnya, baik kaum hawa mau pun adam untuk belajar memasak.
+Penulis pernah membayangkan obrolan di dapur dimasa yang akan datang. 
 
 Cewe : _Mas belanja yok, stok bahan makanan habis_
 
