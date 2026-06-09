@@ -6,9 +6,23 @@ Kami akan menceritakan banyak hal di websini.
 
 ---
 
-# Support dengan Saweran
+# Support Ngupuk
 
-Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Sekali rekaman bisa habis hampir 1GB _cuk_.
+## Dukung melalui GitHub Sponsors
+
+Terima kasih sudah ingin mendukung NGUPUK! Anda dapat menjadi sponsor kami melalui GitHub Sponsors untuk memberikan dukungan berkelanjutan.
+
+<p>
+  <a href="https://github.com/sponsors/ngupuk">
+    <img
+      src="https://dabuttonfactory.com/button.png?t=Sponsor+di+GitHub&amp;f=Open+Sans-Bold&amp;ts=26&amp;tc=fff&amp;hp=45&amp;vp=20&amp;c=11&amp;bgt=unicolored&amp;bgc=ff69b4"
+      alt="Sponsor di GitHub" />
+  </a>
+</p>
+
+## Dukung dengan Saweran
+
+Atau Anda juga bisa mendukung kami melalui Saweria. Jangan lupa sawer **NGUPUK** agar kami bisa beli kuota sambil ngupuk terus. Sekali rekaman bisa habis hampir 1GB _cuk_.
 
 <p>
   Jangan lupa dukung ngupuk dengan klik tombol <strong>Dukung Ngupuk</strong>
